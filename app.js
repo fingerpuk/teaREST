@@ -1,5 +1,5 @@
 //  Add the restify library
-var restify = require('restify'), userSave = require('save')('user');
+var restify = require('restify');
 //  Create our api server
 var server = restify.createServer({name: 'teaREST'});
 //  configure requirements for our server

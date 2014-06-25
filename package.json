@@ -3,15 +3,18 @@
   "version": "0.0.1",
   "description": "A simple Restify web service",
   "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specificed\" && exit 1"
+    },
   "dependencies": {
-	"restify": "*"
+	"restify": "2.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jane-doe/teaREST.git"
   },
   "engines": {
-	 "node": "*",
-	 "npm": "*"
+	 "node": "0.10.26",
+	 "npm": "1.4.4"
   }
 }
