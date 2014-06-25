@@ -11,6 +11,10 @@ var port = process.env.PORT || 5000;
 server.listen(port, function () {
   console.log('teaREST is up: ', server.name, server.url);
 });
+//  Simple initial route
+server.get('/', function (req, res, next) {
+  res.send('Hello everyone');
+});
 //  Simple LED response route
 server.post('/led', function (req, res, next) {
   if (req.params.call === 1) {
