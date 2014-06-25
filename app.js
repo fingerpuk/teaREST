@@ -17,6 +17,7 @@ server.get('/', function (req, res, next) {
 });
 //  Simple LED response route
 server.post('/led', function (req, res, next) {
+  res.send(req.params.call);
   if (req.params.call === 1) {
     res.send(1);
   }
