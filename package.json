@@ -6,8 +6,12 @@
   "dependencies": {
 	"restify": "*"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jane-doe/teaREST.git"
+  },
   "engines": {
-	"node": "*",
-	"npm": "*"
+	 "node": "*",
+	 "npm": "*"
   }
 }
