@@ -1,6 +1,8 @@
 {
   "name": "teaREST",
   "version": "0.0.1",
+  "description": "A simple Restify web service",
+  "main": "app.js",
   "dependencies": {
 	"restify": "*"
   },
