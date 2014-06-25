@@ -12,7 +12,7 @@ server.listen(port, function () {
   console.log('teaREST is up: ', server.name, server.url);
 });
 //  Simple LED response route
-server.get('/led', function (req, res, next) {
+server.post('/led', function (req, res, next) {
   if (req.params.call === 1) {
     res.send(1);
   }
